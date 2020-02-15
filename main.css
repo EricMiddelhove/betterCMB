@@ -3,13 +3,6 @@
     width: 10em;
 }
 
-#bild1 {
-    display: block;
-    padding-top: 2.5em;
-    margin: 0 auto;
-    width: 60em;
-}
-
 
 hr {
     display: block;
@@ -124,4 +117,27 @@ menu li.topmenu{
 
 #mainmenue{
     padding-top: 1em;
+}
+
+.slides{
+    display: flex;
+    padding-top: 2.5em;
+    margin: auto;
+    width: fit-content;
+}
+
+.slider-container{
+    width: 45%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide-pictures{
+    width: 620px;
+}
+
+#buttons{
+    border: 1px solid red;
+    margin: auto;
+    width: fit-content;
 }
