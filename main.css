@@ -127,17 +127,20 @@ menu li.topmenu{
 }
 
 .slider-container{
-    width: 45%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
 
 .slide-pictures{
-    width: 620px;
+    width: 1500px;
 }
 
 #buttons{
     border: 1px solid red;
     margin: auto;
     width: fit-content;
+}
+button{
+    width: 100px;
 }
