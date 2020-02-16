@@ -10,7 +10,7 @@ console.log(slideWidth);
 let counter = 0;
 
 setInterval(function(){
-    slide.style.transition = "transform 0.4s ease-in-out";
+    slide.style.transition = "transform 0.6s ease-in-out";
     if(counter < slides.length - 1){
         counter++;
         slide.style.transform = "translate(" + (-slideWidth * counter) + "px)";
@@ -19,4 +19,4 @@ setInterval(function(){
         slide.style.transform = "translate(" + (-slideWidth * counter) + "px)";
     }
 
-},3000);
+},5000);
