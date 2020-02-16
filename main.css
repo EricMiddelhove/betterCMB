@@ -13,7 +13,7 @@ body {margin: 0em;}
 #menuicon {
     padding: 0.5em;
     margin: 0;
-    width: 5em;
+    width: 2.5em;
     vertical-align: middle;
 }
 
@@ -100,14 +100,14 @@ menu li.topmenu{
 
     #bild1 {
         width: 100%;
-        padding-top: 0sem;
+        padding-top: 0em;
     }
 
     .hamburger {
         display: grid;
         grid-template-columns: 20% 60% 20%;
         width: inherit;
-        background-color:  rgb(216, 3, 3);
+        /*background-color:  rgb(216, 3, 3);*/
     }
 }
 
@@ -116,9 +116,13 @@ menu li.topmenu{
     margin-top: auto;
     margin-bottom: auto;
     line-height: 0;
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-align: center;
-    color: white;
+    color: gray;
+}
+
+#iconcontainer{
+    text-align: right;
 }
 
 .topmenu a:hover{
