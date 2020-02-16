@@ -1,33 +1,32 @@
-body {margin: 0em;}
-
 #cmb_logo {
     margin: 0;
     width: 10em;
 }
 
-#bild1 {
-    display: block;
-    margin: 0 auto;
+#subtitle{
+    align-items: baseline;
+    margin: auto;
+    width: fit-content;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.4em;
+    font-weight: bold;
+    color:rgb(189, 41, 41);
 }
 
-#menuicon {
-    padding: 0.5em;
-    margin: 0;
-    width: 2.5em;
-    vertical-align: middle;
-}
 
 hr {
     display: block;
     border: 0;
     border-top: 0.3em solid rgb(189, 41, 41);
-    margin: 2em 0;
+    margin: 0.3em 0;
 }
 
 h1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3em;
     font-weight: bold;
+    padding-top: 1em;
     color: rgb(216, 3, 3);
 }
 
@@ -78,51 +77,11 @@ menu li.topmenu{
     display: none;
 }
 
-@media (min-width: 50em) {
-    #bild1 {
-        width: 70%;
-        padding-top: 2.5em;
-    }
-
-    .hamburger {
-        display: none;
-    }
-}
-
-@media (max-width: 50em){
-    #mainmenue {
-        display: none;
-    }
-
-    .content h1 {
-        display: none;
-    }
-
-    #bild1 {
-        width: 100%;
-        padding-top: 0em;
-    }
-
-    .hamburger {
-        display: grid;
-        grid-template-columns: 20% 60% 20%;
-        width: inherit;
-        /*background-color:  rgb(216, 3, 3);*/
-    }
-}
-
-.hamburger h1 {
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    line-height: 0;
-    font-size: 1.5em;
-    text-align: center;
+.topmenu a, .submenu a {
+    padding: 2.4em;
     color: gray;
-}
-
-#iconcontainer{
-    text-align: right;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .topmenu a:hover{
@@ -134,13 +93,13 @@ menu li.topmenu{
 
 /* Eric */
 .h-linebox{
-    grid-template-rows: 80% 10% 20%;
+    grid-template-rows: 85% 10% 5%;
     display: grid;
     
 }
 .h-devider{
     display: grid;
-    grid-template-columns: auto 225px auto;
+    grid-template-columns: auto 100px auto;
     width: inherit;
 }
 
@@ -160,14 +119,37 @@ menu li.topmenu{
     font-size: 1.2em;
     font-weight: bold;
     color: rgb(135, 135, 135);
-    text-decoration: none;
 }
 
 .h-menuecell a:hover{
-
     color:  rgb(189, 41, 41);
 }
 
 #mainmenue{
     padding-top: 1em;
+}
+
+.slides{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.slider-container{
+    /*width: 863px;*/
+    max-width: 100%;
+    height: 372px;
+    margin: auto;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.slide-pictures{
+    width: 863px;
+}
+
+button{
+    width: 100px;
 }
