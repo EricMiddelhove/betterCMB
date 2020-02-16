@@ -10,6 +10,12 @@ body {margin: 0em;}
     margin: 0 auto;
 }
 
+#menuicon {
+    padding: 0.5em;
+    margin: 0;
+    width: 5em;
+    vertical-align: middle;
+}
 
 hr {
     display: block;
@@ -77,6 +83,7 @@ menu li.topmenu{
         width: 70%;
         padding-top: 2.5em;
     }
+
     .hamburger {
         display: none;
     }
@@ -87,6 +94,10 @@ menu li.topmenu{
         display: none;
     }
 
+    .content h1 {
+        display: none;
+    }
+
     #bild1 {
         width: 100%;
         padding-top: 0sem;
@@ -94,23 +105,20 @@ menu li.topmenu{
 
     .hamburger {
         display: grid;
-        grid-template-columns: 79% 21%;
+        grid-template-columns: 20% 60% 20%;
         width: inherit;
         background-color:  rgb(216, 3, 3);
     }
-
-    .hamburger a {
-        margin-top: 0;
-        margin-bottom: 0;
-        color:  white;
-        font-weight: bold;
-        font-size: 7em;
-        text-decoration: none;
-    }
 }
 
-.hamburger a:hover {
-    color: gray;
+.hamburger h1 {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
 }
 
 .topmenu a:hover{
