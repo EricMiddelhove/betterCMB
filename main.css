@@ -121,19 +121,19 @@ menu li.topmenu{
 
 .slides{
     display: flex;
-    padding-top: 2.5em;
     margin: auto;
     width: fit-content;
 }
 
 .slider-container{
-    width: 100%;
+    width: 65%;
+    height: 563px;
     margin: auto;
     overflow: hidden;
 }
 
 .slide-pictures{
-    width: 1500px;
+    width: 950px;
 }
 
 #buttons{
