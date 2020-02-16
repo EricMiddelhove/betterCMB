@@ -10,7 +10,7 @@ console.log(slideWidth);
 let counter = 0;
 
 setInterval(function(){
-    slide.style.transition = "transform 0.6s ease-in-out";
+    slide.style.transition = "transform 1s ease-in-out";
     if(counter < slides.length - 1){
         counter++;
         slide.style.transform = "translate(" + (-slideWidth * counter) + "px)";
