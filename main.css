@@ -111,7 +111,6 @@ menu li.topmenu{
 }
 
 .h-menuecell a:hover{
-
     color:  rgb(189, 41, 41);
 }
 
@@ -126,21 +125,17 @@ menu li.topmenu{
 }
 
 .slider-container{
-    width: 65%;
+    width: 950px;
     height: 563px;
     margin: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
+    padding-top: 1em;
 }
 
 .slide-pictures{
     width: 950px;
 }
 
-#buttons{
-    border: 1px solid red;
-    margin: auto;
-    width: fit-content;
-}
 button{
     width: 100px;
 }
