@@ -86,15 +86,11 @@ menu li.topmenu{
 
 
 @media (min-width: 55em) {
-    #bild1 {
-        width: 70%;
-        padding-top: 2.5em;
-    }
 
     .hamburger {
         display: none;
     }
-
+    
     .footer {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
@@ -114,11 +110,6 @@ menu li.topmenu{
 
     .content h1 {
         display: none;
-    }
-
-    #bild1 {
-        width: 100%;
-        padding-top: 0sem;
     }
 
     .hamburger {
