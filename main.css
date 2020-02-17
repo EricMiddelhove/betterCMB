@@ -13,8 +13,9 @@ body {margin: 0em;}
 #menuicon {
     padding: 0.5em;
     margin: 0;
-    width: 5em;
+    width: 2em;
     vertical-align: middle;
+    float: right;
 }
 
 hr {
@@ -127,7 +128,6 @@ menu li.topmenu{
         display: grid;
         grid-template-columns: 20% 60% 20%;
         width: inherit;
-        background-color:  rgb(216, 3, 3);
     }
 }
 
@@ -136,9 +136,9 @@ menu li.topmenu{
     margin-top: auto;
     margin-bottom: auto;
     line-height: 0;
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-align: center;
-    color: white;
+    color: gray;
 }
 
 .topmenu a:hover{
