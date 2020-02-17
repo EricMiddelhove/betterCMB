@@ -13,6 +13,13 @@
     font-weight: bold;
     color:rgb(189, 41, 41);
 }
+#menuicon {
+    padding: 0.5em;
+    margin: 0;
+    width: 2em;
+    vertical-align: middle;
+    float: right;
+}
 
 
 hr {
@@ -77,11 +84,58 @@ menu li.topmenu{
     display: none;
 }
 
-.topmenu a, .submenu a {
-    padding: 2.4em;
+
+@media (min-width: 55em) {
+    #bild1 {
+        width: 70%;
+        padding-top: 2.5em;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: inherit;
+    }
+}
+
+@media (max-width: 55em){
+    #mainmenue {
+        display: none;
+    }
+
+    .content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .content h1 {
+        display: none;
+    }
+
+    #bild1 {
+        width: 100%;
+        padding-top: 0sem;
+    }
+
+    .hamburger {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        width: inherit;
+    }
+}
+
+.hamburger h1 {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0;
+    font-size: 1.5em;
+    text-align: center;
     color: gray;
-    font-weight: bold;
-    text-decoration: none;
 }
 
 .topmenu a:hover{
