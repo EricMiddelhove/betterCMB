@@ -98,7 +98,15 @@ menu li.topmenu{
 .topmenu ul{
     display: none;
 }
+/*Dropdown liste*/
+.dropdown{
+    display: none; /* Wird durch Javascript deaktiviert*/
+    text-decoration: none;
+}
+.dropdown li{
 
+
+}
 
 @media (min-width: 60em) {
 
