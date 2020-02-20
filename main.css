@@ -206,6 +206,10 @@ menu li.topmenu{
     text-align: center;
     color: gray;
 }
+
+.footer_text a:hover {
+    color: black;
+}
 /*Footer*/
 
 /* Eric */
