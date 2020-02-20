@@ -68,12 +68,24 @@ h3 {
     font-size: 1.3em;
     line-height: 1.8em;
     text-decoration: none;
+    color: black;
 }
 
 .text a {
     color: black;
-    line-height: 3em;
+    line-height: 1.8em;
 }
+
+.text a:hover {
+    color: rgb(216, 3, 3);
+}
+
+.kontakte-bilder {
+    display: grid;
+    width: inherit;
+    padding-right: 1em;
+}
+
 
 /*Menüleiste*/
 menu {
@@ -158,11 +170,21 @@ menu li.topmenu{
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
-    color: rgb(216, 3, 3);
+    line-height: 3em;
 
     display: grid;
-    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-columns: 2.5% 30% 2.5% 30% 2.5% 30% 2.5%;
     width: inherit;
+}
+
+.bildungsgaenge p:hover {
+    background-color: rgb(218, 78, 78);
+}
+
+.bildungsgaenge p {
+    background-color: rgb(216, 3, 3);
+    border: 1px solid  rgb(216, 3, 3);
+    vertical-align: middle;
 }
 
 
