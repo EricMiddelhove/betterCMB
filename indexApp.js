@@ -1,4 +1,4 @@
-console.log("file loaded");
+/** Slider */
 
 let slideContainer = document.querySelector('.slider-container');
 let slides = document.querySelectorAll('.slides img');
@@ -21,6 +21,7 @@ setInterval(function(){
 
 },5000);
 
+/*Dropdown */
 let hamburger = document.querySelector('#menuicon');
 let isShown = false;
 console.log(hamburger);
@@ -34,7 +35,7 @@ hamburger.addEventListener('click', function(){
 function showDropdown(show){
     let objects = document.querySelector('.dropdown');
 
-    if(!isShown){
+    if(!show){
         objects.style.display = 'block';
         isShown = true;
     }else{
