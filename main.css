@@ -27,6 +27,10 @@ body {
     float: right;
 }
 
+#menuicon:hover {
+    cursor: pointer;
+}
+
 
 hr {
     display: block;
@@ -99,6 +103,11 @@ h3 {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         width: inherit;
+    }
+
+    .menue-mobile {
+        position: absolute;
+        visibility: hidden;
     }
 }
 
@@ -305,6 +314,51 @@ h3 {
 
 #mainmenue{
     padding-top: 1em;
+}
+
+/*Dropdown liste*/
+.menue-mobile{
+    display: none; /* Wird durch Javascript deaktiviert*/
+    background-color: #e7e7e7;
+}
+
+.dropdown-mobile {
+    display: none;
+    visibility: hidden;
+    padding-left: 2em;
+}
+
+.menuecell-mobile, .dropcell-mobile {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.menuecell-mobile a, .dropcell-mobile a{
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    line-height: 2.1;
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: none;
+    color: gray;
+    border-top: 1px solid white;
+}
+
+.dropdown-mobile a {
+    padding-left: 0;
+    color: rgb(88, 88, 88);
+}
+
+.menuecell-mobile a:hover{
+    color:  rgb(205, 6, 25);
+}
+
+.dropcell-mobile:hover .dropdown-mobile, .dropcell-mobile a:hover{
+    visibility: visible;
+    display: block;
+    color:  rgb(205, 6, 25);
+    cursor: pointer;
 }
 
 .slides{
