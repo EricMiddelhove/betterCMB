@@ -316,7 +316,7 @@ h3 {
     padding-top: 1em;
 }
 
-/*Dropdown liste*/
+/*Menü Mobile*/
 .menue-mobile{
     display: none; /* Wird durch Javascript deaktiviert*/
     background-color: #e7e7e7;
@@ -360,6 +360,7 @@ h3 {
     color:  rgb(205, 6, 25);
     cursor: pointer;
 }
+/*Menü Mobile*/
 
 .slides{
     display: flex;
